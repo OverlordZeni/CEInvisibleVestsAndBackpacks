@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelCarryGearBase">
+    <defName>Apparel_TacVest_Invis</defName>
+    <label>tactical vest (invisible)</label>
+    <description>A loadbearing vest with a number of pouches to store magazines and other equipment.\n\nSpeeds up reloading but is quite bulky to wear.  This one has been made invisible.</description>
+    <graphicData>
+      <texPath>Things/Apparel/TacRigging_Invis/TacRigging_Invis</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>2</Mass>
+      <Bulk>10</Bulk>
+      <WornBulk>5</WornBulk>
+      <EquipDelay>3.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryBulk>30</CarryBulk>
+      <ReloadSpeed>0.1</ReloadSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Cloth>60</Cloth>
+    </costList>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <modExtensions>
+      <li Class="CombatExtended.VisibleAccessoryDefExtension">
+        <order>2</order>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelCarryGearBase">
+    <defName>Apparel_Backpack_Invis</defName>
+    <label>backpack (invisible)</label>
+    <description>A comfortable and spacious backpack for storing all kinds of items.  This one has been made invisible.</description>
+    <graphicData>
+      <texPath>Things/Apparel/Backpack_Invis/Milpack_Invis</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>8000</WorkToMake>
+      <Mass>1</Mass>
+      <Bulk>3</Bulk>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryBulk>30</CarryBulk>
+    </equippedStatOffsets>
+    <costList>
+      <Cloth>40</Cloth>
+    </costList>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <modExtensions>
+      <li Class="CombatExtended.VisibleAccessoryDefExtension">
+        <order>2</order>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelCarryGearBase">
+    <defName>Apparel_TribalBackpack_Invis</defName>
+    <label>tribal backpack (invisible)</label>
+    <description>Primitive backpack made from animal furs, useful for storing items when travelling.  This one has been made invisible..</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/TribalPack_Invis/Tribalpack_Invis</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1</Mass>
+      <Bulk>3</Bulk>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryBulk>15</CarryBulk>
+    </equippedStatOffsets>
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>HandTailoringBench</li>
+        <li>ElectricTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Neolithic</li>
+      </tags>
+    </apparel>
+    <modExtensions>
+      <li Class="CombatExtended.VisibleAccessoryDefExtension">
+        <order>2</order>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>
