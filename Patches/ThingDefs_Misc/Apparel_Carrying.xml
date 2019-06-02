@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success></success>
+    <operations>      
+
+      <!-- Adding Name tags to Carrying apparel so that they may be parented in Apparel_Carrying_Invis.xml -->
+      
+      <li Class="PatchOperationAttributeAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_TacVest"]</xpath>
+        <attribute>Name</attribute>
+        <value>ApparelTacVest</value>
+		  </li>
+
+      <li Class="PatchOperationAttributeAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_Backpack"]</xpath>
+        <attribute>Name</attribute>
+        <value>ApparelBackpack</value>
+		  </li>
+
+      <li Class="PatchOperationAttributeAdd">
+        <xpath>/Defs/ThingDef[defName="Apparel_TribalBackpack"]</xpath>
+        <attribute>Name</attribute>
+        <value>ApparelTribalBackpack</value>
+		  </li>
+
+    </operations>
+  </Operation>
+</Patch>
