@@ -12,6 +12,6 @@
 	</loadBefore>
 	<loadAfter>
 	</loadAfter>
-	<manifestUri></manifestUri>
-	<downloadUri></downloadUri>
+	<manifestUri>https://raw.githubusercontent.com/OverlordZeni/CEInvisibleVestsAndBackpacks/master/About/Manifest.xml</manifestUri>
+	<downloadUri>https://github.com/OverlordZeni/CEInvisibleVestsAndBackpacks/releases/latest</downloadUri>
 </Manifest>
