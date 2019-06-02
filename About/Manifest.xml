@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
 	<identifier>CEInvisibleVestsAndBackpacks</identifier>
-	<version>1.0.0.0</version>
+	<version>1.0.0.1</version>
 	<dependencies>
-    <li>1631756268</li> <!-- Combat Extended -->
+    <!-- <li>1631756268</li> Combat Extended -->
+    <li>CombatExtended</li>
 	</dependencies>
 	<incompatibleWith>
 	</incompatibleWith>
