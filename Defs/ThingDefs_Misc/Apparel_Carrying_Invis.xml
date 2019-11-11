@@ -9,6 +9,9 @@
       <texPath>Things/Apparel/TacRigging_Invis/TacRigging_Invis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <apparel>
+      <wornGraphicPath></wornGraphicPath>
+    </apparel>
   </ThingDef>
 
   <ThingDef ParentName="ApparelBackpack">
@@ -19,6 +22,9 @@
       <texPath>Things/Apparel/Backpack_Invis/Milpack_Invis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <apparel>
+      <wornGraphicPath></wornGraphicPath>
+    </apparel>
   </ThingDef>
 
   <ThingDef ParentName="ApparelTribalBackpack">
@@ -29,7 +35,11 @@
     <graphicData>
       <texPath>Things/Apparel/TribalPack_Invis/Tribalpack_Invis</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
+    <apparel>
+      <wornGraphicPath></wornGraphicPath>
+    </apparel>
   </ThingDef>
 
 </Defs>
